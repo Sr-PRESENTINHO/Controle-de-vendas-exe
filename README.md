@@ -1,0 +1,36 @@
+# Controle de Vendas
+
+O Controle de Vendas organiza clientes, compras, pagamentos e parcelas em um aplicativo para Windows. Os dados ficam salvos em uma planilha Excel no computador, e o programa também gera recibos e resumos de compra em PDF.
+
+## Recursos
+
+- **Clientes:** cadastre, edite e busque clientes pelo nome ou telefone.
+- **Ficha do cliente:** consulte compras, pagamentos, parcelas, total pago e saldo em aberto.
+- **Compras:** registre vários itens, quantidades e preços em uma compra.
+- **Parcelas:** divida compras em até 48 parcelas e acompanhe valores pagos e pendentes.
+- **Pagamentos:** registre pagamentos parciais ou quitações com data e hora.
+- **Recibos e resumos:** gere recibos de pagamento e resumos da compra em PDF.
+- **Painel:** acompanhe valores recebidos, saldos em aberto e parcelas próximas ou vencidas.
+- **Backups:** antes de alterar a planilha, o aplicativo salva uma cópia com data e hora. Mantém as 30 cópias mais recentes.
+- **Importação:** importe uma base de dados em Excel exportada do aplicativo online.
+- **Clientes excluídos:** ao apagar um cliente, o programa salva uma cópia separada com o cadastro e seu histórico.
+
+## Como baixar e instalar
+
+1. Acesse a seção [Releases](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/releases).
+2. Baixe `ControleDeVendas.exe`.
+3. Abra o arquivo para iniciar o aplicativo.
+
+## Requisitos
+
+- Windows.
+- Não é necessário instalar Python ou Excel para usar o aplicativo.
+
+## Armazenamento e privacidade
+
+Os dados são salvos localmente em `Documentos\Controle de Vendas`. O aplicativo não sincroniza automaticamente com o Google Drive ou com outros computadores. Os arquivos de dados não são criptografados; proteja o acesso à sua conta do Windows e mantenha cópias de segurança.
+
+## Limitações
+
+- O aplicativo foi criado para uso local em um computador e não oferece sincronização automática entre aparelhos.
+- Os recibos e resumos em PDF não são notas fiscais eletrônicas oficiais.
